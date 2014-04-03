@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:persons xmlns:ns2="http://www.leafit.ch/persons/">
+    <person>
+        <first_name>Adam</first_name>
+    </person>
+    <person>
+        <first_name>Eva</first_name>
+    </person>
+</ns2:persons>

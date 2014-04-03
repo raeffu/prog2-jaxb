@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:persons xmlns:tns="http://www.leafit.ch/persons/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.leafit.ch/persons/ schema/persons.xsd ">
+	<person>
+		<first_name>first_name</first_name>
+	</person>
+</tns:persons>

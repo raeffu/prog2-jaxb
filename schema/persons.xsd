@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.leafit.ch/persons/" targetNamespace="http://www.leafit.ch/persons/">
+    <element name="persons" type="tns:PersonsType"></element>
+    
+    <complexType name="PersonsType">
+    	<sequence>
+    		<element name="person" type="tns:PersonType" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="PersonType">
+    	<sequence>
+    		<element name="first_name" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>
